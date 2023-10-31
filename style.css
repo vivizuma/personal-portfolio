@@ -1,7 +1,12 @@
-* {
-  background-color: rgb(157, 157, 255);
-}
+
 
 body {
   text-color: red;
+
+}
+
+.main{
+  margin:100px;
+  padding:50px;
+  border:1px solid black
 }
