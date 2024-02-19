@@ -1,26 +1,23 @@
-
-
-body {
-  text-color: red;
-
+.main {
+  margin: 100px;
+  padding: 50px;
+  border: 1px solid black;
 }
 
-.main{
-  margin:100px;
-  padding:50px;
-  border:1px solid black;
-  
+.project-img {
+  cursor: pointer;
 }
 
-.project-img{
-  cursor:pointer;
+.hover {
+  cursor: pointer;
 }
 
-.hover{
-  cursor:pointer
-}
-
-#card-container{
-  display:grid;
+#card-container {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.card {
+  background: salmon;
+  color: white;
 }
